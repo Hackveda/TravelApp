@@ -1,0 +1,86 @@
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/constraint_layout_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/screen_activity_constraint_layout_constraint_layout_background_color">
+
+	<ImageView
+		android:id="@+id/raimond_klavins_jqt2_image_view"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:scaleType="centerCrop"
+		android:src="@drawable/raimond_klavins_jqt2wp5s0dk_unsplash"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintHorizontal_weight="1"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="0dp"/>
+
+	<TextView
+		android:id="@+id/let_smake_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="@dimen/screen_activity_let_smake_text_view_margin_start"
+		android:layout_marginTop="@dimen/screen_activity_let_smake_text_view_margin_top"
+		android:fontFamily="@font/font_roboto_regular"
+		android:gravity="start"
+		android:text="@string/screen_activity_let_smake_text_view_text"
+		android:textColor="#FFFFFF"
+		android:textSize="@dimen/screen_activity_let_smake_text_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="41dp"
+		tools:layout_editor_absoluteY="553dp"/>
+
+	<TextView
+		android:id="@+id/your_dream_vacation_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="@dimen/screen_activity_your_dream_vacation_text_view_margin_bottom"
+		android:layout_marginStart="@dimen/screen_activity_your_dream_vacation_text_view_margin_start"
+		android:fontFamily="@font/font_poppins_bold"
+		android:gravity="start"
+		android:lineSpacingMultiplier="0.96"
+		android:text="@string/screen_activity_your_dream_vacation_text_view_text"
+		android:textColor="#FFFFFF"
+		android:textSize="@dimen/screen_activity_your_dream_vacation_text_view_text_size"
+		app:layout_constraintBottom_toTopOf="@+id/path99_image_view"
+		app:layout_constraintLeft_toLeftOf="parent"
+		tools:layout_editor_absoluteX="41dp"
+		tools:layout_editor_absoluteY="625dp"/>
+
+	<ImageView
+		android:id="@+id/path99_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="@dimen/screen_activity_path99_image_view_margin_bottom"
+		android:scaleType="centerCrop"
+		android:src="@drawable/path_99"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		tools:layout_editor_absoluteX="71dp"
+		tools:layout_editor_absoluteY="807dp"/>
+
+	<Button
+		android:id="@+id/get_started_button"
+		android:layout_width="@dimen/screen_activity_get_started_button_width"
+		android:layout_height="@dimen/screen_activity_get_started_button_height"
+		android:layout_marginBottom="@dimen/screen_activity_get_started_button_margin_bottom"
+		android:background="?attr/selectableItemBackground"
+		android:fontFamily="@font/font_poppins_regular"
+		android:gravity="center"
+		android:text="@string/screen_activity_get_started_button_text"
+		android:textColor="#FFFFFF"
+		android:textSize="@dimen/screen_activity_get_started_button_text_size"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		tools:layout_editor_absoluteX="157dp"
+		tools:layout_editor_absoluteY="828dp"/>
+</android.support.constraint.ConstraintLayout>

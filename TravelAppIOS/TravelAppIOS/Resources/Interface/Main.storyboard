@@ -1,0 +1,1073 @@
+<document systemVersion="15B42" targetRuntime="iOS.CocoaTouch" type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" useTraitCollections="YES" useAutolayout="YES" propertyAccessControl="none" version="3.0" toolsVersion="13771" initialViewController="qsA-E1-uZ6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen" />
+    </device>
+    <dependencies>
+        <plugIn version="14283.9" identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" />
+    </dependencies>
+    <scenes>
+        <scene sceneID="1CN-Ot-V6t">
+            <objects>
+                <viewController id="wGU-aN-r3h" sceneMemberID="viewController" customModule="iOS_Development" customModuleProvider="target" customClass="ScreenViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3jh-LF-7U6" />
+                        <viewControllerLayoutGuide type="bottom" id="xA9-CI-1ol" />
+                    </layoutGuides>
+                    <view id="F60-S8-VfD" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" key="view">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9254902005195618" green="0.9411764740943909" blue="0.9607843160629272" alpha="0.8588235378265381" />
+                        <rect key="frame" x="0" y="0" width="428" height="926" />
+                        <constraints>
+                            <constraint firstItem="Jwv-W8-k4y" firstAttribute="leading" secondItem="F60-S8-VfD" secondAttribute="leading" constant="0" id="GyH-C5-AFh" />
+                            <constraint firstItem="F60-S8-VfD" firstAttribute="trailing" secondItem="Jwv-W8-k4y" secondAttribute="trailing" constant="0" id="eXq-b6-nBN" />
+                            <constraint firstItem="Jwv-W8-k4y" firstAttribute="centerY" secondItem="F60-S8-VfD" secondAttribute="centerY" constant="0" id="2RG-V4-aao" />
+                            <constraint firstItem="D4x-5c-jKy" firstAttribute="leading" secondItem="F60-S8-VfD" secondAttribute="leading" constant="41" id="8pI-I7-hJv" />
+                            <constraint firstItem="D4x-5c-jKy" firstAttribute="top" secondItem="F60-S8-VfD" secondAttribute="top" constant="553" id="PKJ-Ur-23X" />
+                            <constraint firstItem="4uy-u8-OPW" firstAttribute="leading" secondItem="F60-S8-VfD" secondAttribute="leading" constant="41" id="YFL-ig-cRn" />
+                            <constraint firstItem="4m2-js-Hnf" firstAttribute="top" secondItem="4uy-u8-OPW" secondAttribute="bottom" constant="32" id="mVC-oG-O6Z" />
+                            <constraint firstItem="4m2-js-Hnf" firstAttribute="centerX" secondItem="F60-S8-VfD" secondAttribute="centerX" constant="0" id="jUS-qn-FBe" />
+                            <constraint firstItem="F60-S8-VfD" firstAttribute="bottom" secondItem="4m2-js-Hnf" secondAttribute="bottom" constant="52" id="iKj-JR-RhK" />
+                            <constraint firstItem="BTz-D5-6df" firstAttribute="centerX" secondItem="F60-S8-VfD" secondAttribute="centerX" constant="0" id="LHB-57-0Wk" />
+                            <constraint firstItem="F60-S8-VfD" firstAttribute="bottom" secondItem="BTz-D5-6df" secondAttribute="bottom" constant="66" id="Fnf-Tg-GNz" />
+                        </constraints>
+                        <subviews>
+                            <imageView id="Jwv-W8-k4y" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="raimond-klavins-jqt2wp5s0dk-unsplash">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="0" y="0" width="428" height="926" />
+                                <constraints />
+                            </imageView>
+                            <label id="D4x-5c-jKy" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="41" y="553" width="242" height="58" />
+                                <constraints />
+                                <string key="text">Let&apos;s make</string>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="50" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                            </label>
+                            <label id="4uy-u8-OPW" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" customClass="SupernovaLabel" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="41" y="625" width="303" height="150" />
+                                <constraints />
+                                <string key="text">your dream
+vacation.</string>
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="50" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                            </label>
+                            <imageView id="4m2-js-Hnf" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="path-99">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="71" y="807" width="287" height="67" />
+                                <constraints />
+                            </imageView>
+                            <button id="BTz-D5-6df" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="SupernovaButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="157" y="828" width="115" height="32" />
+                                <constraints>
+                                    <constraint firstItem="BTz-D5-6df" firstAttribute="width" constant="115" id="D1m-Az-ozz" />
+                                    <constraint firstItem="BTz-D5-6df" firstAttribute="height" constant="32" id="bUA-ul-waP" />
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="20" />
+                                <state title="Get Started" key="normal">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                </state>
+                                <connections>
+                                    <action selector="onGetStartedPressed:" destination="wGU-aN-r3h" eventType="touchUpInside" id="WuQ-Fv-SqS" />
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <tabBarItem id="xYJ-jc-5hU" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" key="tabBarItem">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="0" y="0" width="0" height="0" />
+                        <constraints />
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="yourDreamVacationLabel" destination="4uy-u8-OPW" id="ooK-Oz-8Z0" />
+                        <outlet property="getStartedButton" destination="BTz-D5-6df" id="hus-L2-pa5" />
+                        <segue destination="aPY-E2-OQg" kind="show" id="z8s-zS-JIr" identifier="Push 02" />
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IpD-O9-HNs" userLabel="First Responder" sceneMemberID="firstResponder" />
+            </objects>
+            <point key="canvasLocation" x="1222" y="999" />
+        </scene>
+        <scene sceneID="mLX-Y6-UtY">
+            <objects>
+                <viewController id="aPY-E2-OQg" sceneMemberID="viewController" customModule="iOS_Development" customModuleProvider="target" customClass="ScreenTwoViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="icZ-DO-xPm" />
+                        <viewControllerLayoutGuide type="bottom" id="hMc-Tz-FSz" />
+                    </layoutGuides>
+                    <view id="pj8-7E-9KC" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" key="view">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9843137264251709" green="0.9921568632125854" blue="1.0" alpha="1.0" />
+                        <rect key="frame" x="0" y="0" width="428" height="926" />
+                        <constraints>
+                            <constraint firstItem="ySs-DY-nCQ" firstAttribute="leading" secondItem="pj8-7E-9KC" secondAttribute="leading" constant="0" id="vKJ-3l-ral" />
+                            <constraint firstItem="pj8-7E-9KC" firstAttribute="trailing" secondItem="ySs-DY-nCQ" secondAttribute="trailing" constant="0" id="F0N-m6-tMD" />
+                            <constraint firstItem="pj8-7E-9KC" firstAttribute="bottom" secondItem="ySs-DY-nCQ" secondAttribute="bottom" constant="0" id="R6p-mB-V0g" />
+                            <constraint firstItem="d2q-zC-zGw" firstAttribute="leading" secondItem="4Ut-wk-Buv" secondAttribute="trailing" constant="10" id="IiF-PC-dkZ" />
+                            <constraint firstItem="d2q-zC-zGw" firstAttribute="top" secondItem="pj8-7E-9KC" secondAttribute="top" constant="33" id="PGX-ff-ChD" />
+                            <constraint firstItem="4Ut-wk-Buv" firstAttribute="leading" secondItem="pj8-7E-9KC" secondAttribute="leading" constant="30" id="2DB-eD-Doh" />
+                            <constraint firstItem="4Ut-wk-Buv" firstAttribute="top" secondItem="pj8-7E-9KC" secondAttribute="top" constant="25" id="eWF-qT-4Ml" />
+                            <constraint firstItem="pj8-7E-9KC" firstAttribute="trailing" secondItem="ja9-RC-rL8" secondAttribute="trailing" constant="30" id="yv5-va-BmV" />
+                            <constraint firstItem="ja9-RC-rL8" firstAttribute="top" secondItem="pj8-7E-9KC" secondAttribute="top" constant="30" id="M4b-2U-l2c" />
+                            <constraint firstItem="dEh-fK-EdC" firstAttribute="leading" secondItem="pj8-7E-9KC" secondAttribute="leading" constant="30" id="ffR-7x-kkR" />
+                            <constraint firstItem="dEh-fK-EdC" firstAttribute="top" secondItem="4Ut-wk-Buv" secondAttribute="bottom" constant="35" id="R9I-uU-jpW" />
+                            <constraint firstItem="pj8-7E-9KC" firstAttribute="trailing" secondItem="DHQ-Bo-Kpa" secondAttribute="trailing" constant="30" id="nOn-Dc-KBM" />
+                            <constraint firstItem="DHQ-Bo-Kpa" firstAttribute="top" secondItem="ja9-RC-rL8" secondAttribute="bottom" constant="40" id="3x1-XR-DjP" />
+                            <constraint firstItem="Ymw-bN-rvK" firstAttribute="leading" secondItem="Kgv-51-MkG" secondAttribute="trailing" constant="24" id="Sks-Rh-YYR" />
+                            <constraint firstItem="Ymw-bN-rvK" firstAttribute="top" secondItem="d2q-zC-zGw" secondAttribute="bottom" constant="55" id="tRJ-ic-2Fa" />
+                            <constraint firstItem="Kgv-51-MkG" firstAttribute="leading" secondItem="pj8-7E-9KC" secondAttribute="leading" constant="54" id="6KD-C9-mmw" />
+                            <constraint firstItem="Kgv-51-MkG" firstAttribute="top" secondItem="4Ut-wk-Buv" secondAttribute="bottom" constant="53" id="5XI-Ro-tcn" />
+                            <constraint firstItem="pj8-7E-9KC" firstAttribute="trailing" secondItem="4BO-nS-PUC" secondAttribute="trailing" constant="48" id="RS6-o2-NdK" />
+                            <constraint firstItem="4BO-nS-PUC" firstAttribute="top" secondItem="ja9-RC-rL8" secondAttribute="bottom" constant="60" id="W0b-Xx-R4a" />
+                            <constraint firstItem="ejF-7h-T7e" firstAttribute="leading" secondItem="pj8-7E-9KC" secondAttribute="leading" constant="30" id="ZMH-6G-osc" />
+                            <constraint firstItem="ejF-7h-T7e" firstAttribute="top" secondItem="dEh-fK-EdC" secondAttribute="bottom" constant="41" id="VUQ-gf-eDS" />
+                            <constraint firstItem="D0Q-oX-FvG" firstAttribute="leading" secondItem="pj8-7E-9KC" secondAttribute="leading" constant="30" id="5NW-hm-oF6" />
+                            <constraint firstItem="D0Q-oX-FvG" firstAttribute="top" secondItem="ZqX-lu-1SS" secondAttribute="bottom" constant="31" id="HE9-fX-oah" />
+                            <constraint firstItem="pj8-7E-9KC" firstAttribute="trailing" secondItem="MJa-xP-bEQ" secondAttribute="trailing" constant="48" id="bLq-mr-dsR" />
+                            <constraint firstItem="MJa-xP-bEQ" firstAttribute="top" secondItem="ja9-RC-rL8" secondAttribute="bottom" constant="70" id="jJz-CO-6yZ" />
+                            <constraint firstItem="pj8-7E-9KC" firstAttribute="trailing" secondItem="05A-Jz-k17" secondAttribute="trailing" constant="30" id="cLe-CV-1ey" />
+                            <constraint firstItem="05A-Jz-k17" firstAttribute="top" secondItem="DHQ-Bo-Kpa" secondAttribute="bottom" constant="57" id="YHD-Ba-GWV" />
+                            <constraint firstItem="ZqX-lu-1SS" firstAttribute="leading" secondItem="pj8-7E-9KC" secondAttribute="leading" constant="30" id="19O-MQ-CBz" />
+                            <constraint firstItem="ZqX-lu-1SS" firstAttribute="top" secondItem="ejF-7h-T7e" secondAttribute="bottom" constant="21" id="hxr-0k-2MJ" />
+                            <constraint firstItem="pj8-7E-9KC" firstAttribute="trailing" secondItem="CDu-Ig-4TI" secondAttribute="trailing" constant="-90" id="MiW-uM-n74" />
+                            <constraint firstItem="CDu-Ig-4TI" firstAttribute="top" secondItem="05A-Jz-k17" secondAttribute="bottom" constant="36" id="uQJ-G8-ohA" />
+                            <constraint firstItem="Nwp-yD-dX5" firstAttribute="leading" secondItem="pj8-7E-9KC" secondAttribute="leading" constant="30" id="kze-0Z-Qf5" />
+                            <constraint firstItem="ySs-DY-nCQ" firstAttribute="top" secondItem="Nwp-yD-dX5" secondAttribute="bottom" constant="48" id="4er-vm-upa" />
+                            <constraint firstItem="pj8-7E-9KC" firstAttribute="trailing" secondItem="Yg5-1m-5rT" secondAttribute="trailing" constant="-50" id="vdH-qx-ajc" />
+                            <constraint firstItem="ySs-DY-nCQ" firstAttribute="top" secondItem="Yg5-1m-5rT" secondAttribute="bottom" constant="48" id="F9E-pw-EvX" />
+                        </constraints>
+                        <subviews>
+                            <view id="ySs-DY-nCQ" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                <rect key="frame" x="0" y="803" width="428" height="123" />
+                                <constraints>
+                                    <constraint firstItem="ySs-DY-nCQ" firstAttribute="height" constant="123" id="GPK-hN-tvV" />
+                                    <constraint firstItem="sBb-Ci-FTj" firstAttribute="centerX" secondItem="ySs-DY-nCQ" secondAttribute="centerX" constant="0" id="3M2-Em-kGI" />
+                                    <constraint firstItem="sBb-Ci-FTj" firstAttribute="top" secondItem="ySs-DY-nCQ" secondAttribute="top" constant="14" id="Jjd-5Q-45R" />
+                                    <constraint firstItem="sQa-Vs-xb4" firstAttribute="centerX" secondItem="ySs-DY-nCQ" secondAttribute="centerX" constant="0" id="gOS-M9-AFU" />
+                                    <constraint firstItem="sQa-Vs-xb4" firstAttribute="top" secondItem="ySs-DY-nCQ" secondAttribute="top" constant="40" id="YL9-3H-PBQ" />
+                                    <constraint firstItem="ySs-DY-nCQ" firstAttribute="trailing" secondItem="r5M-uP-1mR" secondAttribute="trailing" constant="49" id="gbH-RS-pAa" />
+                                    <constraint firstItem="r5M-uP-1mR" firstAttribute="top" secondItem="ySs-DY-nCQ" secondAttribute="top" constant="37" id="k92-qT-FIa" />
+                                    <constraint firstItem="TOD-4e-SkX" firstAttribute="leading" secondItem="ySs-DY-nCQ" secondAttribute="leading" constant="49" id="AFD-FZ-v2M" />
+                                    <constraint firstItem="TOD-4e-SkX" firstAttribute="top" secondItem="ySs-DY-nCQ" secondAttribute="top" constant="37" id="BGK-zv-jBL" />
+                                    <constraint firstItem="r5M-uP-1mR" firstAttribute="leading" secondItem="y9b-c3-s8q" secondAttribute="trailing" constant="39" id="r1b-zU-dGc" />
+                                    <constraint firstItem="y9b-c3-s8q" firstAttribute="top" secondItem="ySs-DY-nCQ" secondAttribute="top" constant="37" id="ggp-f0-xBX" />
+                                    <constraint firstItem="VZS-wZ-ngI" firstAttribute="leading" secondItem="TOD-4e-SkX" secondAttribute="trailing" constant="38" id="rs1-k6-9ru" />
+                                    <constraint firstItem="VZS-wZ-ngI" firstAttribute="top" secondItem="ySs-DY-nCQ" secondAttribute="top" constant="37" id="NN6-Fq-n1z" />
+                                </constraints>
+                                <subviews>
+                                    <button id="sBb-Ci-FTj" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="SupernovaButton" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="0.529411792755127" blue="0.2078431397676468" alpha="1.0" />
+                                        <rect key="frame" x="178" y="14" width="72" height="72" />
+                                        <constraints>
+                                            <constraint firstItem="sBb-Ci-FTj" firstAttribute="width" constant="72" id="CGA-tQ-5zM" />
+                                            <constraint firstItem="sBb-Ci-FTj" firstAttribute="height" constant="72" id="yJU-vc-5HH" />
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12" />
+                                        <state key="normal" />
+                                        <connections>
+                                            <action selector="onRectangle8Pressed:" destination="aPY-E2-OQg" eventType="touchUpInside" id="1hF-9k-vrY" />
+                                        </connections>
+                                    </button>
+                                    <imageView id="sQa-Vs-xb4" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="group-6">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="204" y="40" width="21" height="21" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="r5M-uP-1mR" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="user">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="353" y="37" width="26" height="26" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="TOD-4e-SkX" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="216242-home-icon">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="49" y="37" width="29" height="26" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="y9b-c3-s8q" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.30000001192092896" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="37menu">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="288" y="37" width="26" height="26" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="VZS-wZ-ngI" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.30000001192092896" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="layer1">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="116" y="37" width="25" height="25" />
+                                        <constraints />
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <view id="d2q-zC-zGw" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="95" y="33" width="81" height="44" />
+                                <constraints>
+                                    <constraint firstItem="d2q-zC-zGw" firstAttribute="width" constant="81" id="vKn-5k-AKD" />
+                                    <constraint firstItem="d2q-zC-zGw" firstAttribute="height" constant="44" id="LMY-Tq-JqP" />
+                                    <constraint firstItem="HI1-vj-rlp" firstAttribute="leading" secondItem="d2q-zC-zGw" secondAttribute="leading" constant="0" id="LgJ-Hp-mL2" />
+                                    <constraint firstItem="HI1-vj-rlp" firstAttribute="top" secondItem="d2q-zC-zGw" secondAttribute="top" constant="0" id="mpR-E3-oRA" />
+                                    <constraint firstItem="iUr-oM-Wud" firstAttribute="leading" secondItem="d2q-zC-zGw" secondAttribute="leading" constant="0" id="x1w-kK-nl3" />
+                                    <constraint firstItem="d2q-zC-zGw" firstAttribute="trailing" secondItem="iUr-oM-Wud" secondAttribute="trailing" constant="0" id="zQX-cu-lkC" />
+                                    <constraint firstItem="iUr-oM-Wud" firstAttribute="top" secondItem="HI1-vj-rlp" secondAttribute="bottom" constant="0" id="GN5-fW-mF0" />
+                                </constraints>
+                                <subviews>
+                                    <label id="HI1-vj-rlp" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.5" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="0" y="0" width="48" height="17" />
+                                        <constraints />
+                                        <string key="text">Welcome</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="10" />
+                                        <color key="textColor" colorSpace="calibratedRGB" red="0.12941177189350128" green="0.1882352977991104" blue="0.30980393290519714" alpha="1.0" />
+                                    </label>
+                                    <label id="iUr-oM-Wud" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="0" y="17" width="81" height="27" />
+                                        <constraints />
+                                        <string key="text">SH Shakil</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="18" />
+                                        <color key="textColor" colorSpace="calibratedRGB" red="0.12941177189350128" green="0.1882352977991104" blue="0.30980393290519714" alpha="1.0" />
+                                    </label>
+                                </subviews>
+                            </view>
+                            <imageView id="4Ut-wk-Buv" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="241743061-364720328695136-7217928988881411807-n">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="30" y="25" width="55" height="55" />
+                                <constraints />
+                            </imageView>
+                            <view id="ja9-RC-rL8" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9490196108818054" green="0.95686274766922" blue="0.9647058844566345" alpha="1.0" />
+                                <rect key="frame" x="353" y="30" width="45" height="45" />
+                                <constraints>
+                                    <constraint firstItem="ja9-RC-rL8" firstAttribute="width" constant="45" id="CBt-tR-qhD" />
+                                    <constraint firstItem="ja9-RC-rL8" firstAttribute="height" constant="45" id="Gow-WK-FY9" />
+                                    <constraint firstItem="tUn-i2-S8g" firstAttribute="leading" secondItem="ja9-RC-rL8" secondAttribute="leading" constant="14" id="v4N-Qe-LvP" />
+                                    <constraint firstItem="ja9-RC-rL8" firstAttribute="trailing" secondItem="tUn-i2-S8g" secondAttribute="trailing" constant="13" id="uTM-kW-xWk" />
+                                    <constraint firstItem="tUn-i2-S8g" firstAttribute="centerY" secondItem="ja9-RC-rL8" secondAttribute="centerY" constant="0" id="8U7-wV-gOT" />
+                                    <constraint firstItem="ja9-RC-rL8" firstAttribute="trailing" secondItem="N6A-BY-Smy" secondAttribute="trailing" constant="10" id="irq-Gx-Ktl" />
+                                    <constraint firstItem="N6A-BY-Smy" firstAttribute="top" secondItem="ja9-RC-rL8" secondAttribute="top" constant="13" id="zDB-oR-Rku" />
+                                </constraints>
+                                <subviews>
+                                    <imageView id="tUn-i2-S8g" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="group-63">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="14" y="11" width="18" height="21" />
+                                        <constraints />
+                                    </imageView>
+                                    <view id="N6A-BY-Smy" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9372549057006836" green="0.4156862795352936" blue="0.062745101749897" alpha="1.0" />
+                                        <rect key="frame" x="25" y="13" width="10" height="10" />
+                                        <constraints>
+                                            <constraint firstItem="N6A-BY-Smy" firstAttribute="width" constant="10" id="jWK-Xc-5Jn" />
+                                            <constraint firstItem="N6A-BY-Smy" firstAttribute="height" constant="10" id="umJ-ON-EEl" />
+                                        </constraints>
+                                        <subviews />
+                                    </view>
+                                </subviews>
+                            </view>
+                            <view id="dEh-fK-EdC" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9921568632125854" green="0.9921568632125854" blue="0.9921568632125854" alpha="1.0" />
+                                <rect key="frame" x="30" y="115" width="300" height="56" />
+                                <constraints>
+                                    <constraint firstItem="dEh-fK-EdC" firstAttribute="width" constant="300" id="FIS-9e-mjw" />
+                                    <constraint firstItem="dEh-fK-EdC" firstAttribute="height" constant="56" id="SJM-Yu-iQh" />
+                                </constraints>
+                                <subviews />
+                            </view>
+                            <view id="DHQ-Bo-Kpa" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="0.529411792755127" blue="0.2078431397676468" alpha="1.0" />
+                                <rect key="frame" x="342" y="115" width="56" height="56" />
+                                <constraints>
+                                    <constraint firstItem="DHQ-Bo-Kpa" firstAttribute="width" constant="56" id="qL3-dg-LFm" />
+                                    <constraint firstItem="DHQ-Bo-Kpa" firstAttribute="height" constant="56" id="4fb-9d-sU7" />
+                                </constraints>
+                                <subviews />
+                            </view>
+                            <label id="Ymw-bN-rvK" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.23000000417232513" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="98" y="132" width="151" height="25" />
+                                <constraints />
+                                <string key="text">Search Destination</string>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.08235294371843338" green="0.07058823853731155" blue="0.07058823853731155" alpha="1.0" />
+                            </label>
+                            <imageView id="Kgv-51-MkG" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="3325029-search-icon">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="54" y="133" width="20" height="20" />
+                                <constraints />
+                            </imageView>
+                            <view id="4BO-nS-PUC" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="360" y="135" width="20" height="17" />
+                                <constraints>
+                                    <constraint firstItem="4BO-nS-PUC" firstAttribute="width" constant="20" id="DPZ-5R-33s" />
+                                    <constraint firstItem="4BO-nS-PUC" firstAttribute="height" constant="17" id="qSd-kj-xuH" />
+                                    <constraint firstItem="Y6S-4i-OTm" firstAttribute="leading" secondItem="4BO-nS-PUC" secondAttribute="leading" constant="0" id="xr6-lV-toS" />
+                                    <constraint firstItem="4BO-nS-PUC" firstAttribute="trailing" secondItem="Y6S-4i-OTm" secondAttribute="trailing" constant="0" id="05Q-HJ-Pnq" />
+                                    <constraint firstItem="4BO-nS-PUC" firstAttribute="bottom" secondItem="Y6S-4i-OTm" secondAttribute="bottom" constant="0" id="JkC-vQ-KXr" />
+                                    <constraint firstItem="ttL-Jm-Jga" firstAttribute="leading" secondItem="4BO-nS-PUC" secondAttribute="leading" constant="0" id="AW7-h7-Q6Z" />
+                                    <constraint firstItem="4BO-nS-PUC" firstAttribute="trailing" secondItem="ttL-Jm-Jga" secondAttribute="trailing" constant="0" id="UGJ-oM-qfM" />
+                                    <constraint firstItem="ttL-Jm-Jga" firstAttribute="top" secondItem="4BO-nS-PUC" secondAttribute="top" constant="0" id="u8A-GF-0VF" />
+                                </constraints>
+                                <subviews>
+                                    <imageView id="Y6S-4i-OTm" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="group-68">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="0" y="10" width="20" height="7" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="ttL-Jm-Jga" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="group-68">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="0" y="0" width="20" height="7" />
+                                        <constraints />
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <label id="ejF-7h-T7e" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="30" y="212" width="187" height="36" />
+                                <constraints />
+                                <string key="text">Recommended</string>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="24" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.12941177189350128" green="0.1882352977991104" blue="0.30980393290519714" alpha="1.0" />
+                            </label>
+                            <label id="D0Q-oX-FvG" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="30" y="601" width="187" height="36" />
+                                <constraints />
+                                <string key="text">Top Destination</string>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="24" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.12941177189350128" green="0.1882352977991104" blue="0.30980393290519714" alpha="1.0" />
+                            </label>
+                            <view id="MJa-xP-bEQ" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                <rect key="frame" x="373" y="145" width="7" height="7" />
+                                <constraints>
+                                    <constraint firstItem="MJa-xP-bEQ" firstAttribute="width" constant="7" id="j1y-d3-RoG" />
+                                    <constraint firstItem="MJa-xP-bEQ" firstAttribute="height" constant="7" id="TE6-M3-CBa" />
+                                </constraints>
+                                <subviews />
+                            </view>
+                            <imageView id="05A-Jz-k17" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="group-71">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="379" y="228" width="19" height="5" />
+                                <constraints />
+                            </imageView>
+                            <view id="ZqX-lu-1SS" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="30" y="269" width="234" height="301" />
+                                <constraints>
+                                    <constraint firstItem="ZqX-lu-1SS" firstAttribute="width" constant="234" id="uXe-Ur-0wt" />
+                                    <constraint firstItem="ZqX-lu-1SS" firstAttribute="height" constant="301" id="8LX-pw-xsG" />
+                                    <constraint firstItem="IXR-Xk-Gqg" firstAttribute="leading" secondItem="ZqX-lu-1SS" secondAttribute="leading" constant="0" id="2j1-Yx-ALa" />
+                                    <constraint firstItem="ZqX-lu-1SS" firstAttribute="trailing" secondItem="IXR-Xk-Gqg" secondAttribute="trailing" constant="0" id="yqS-Th-x9K" />
+                                    <constraint firstItem="IXR-Xk-Gqg" firstAttribute="centerY" secondItem="ZqX-lu-1SS" secondAttribute="centerY" constant="0" id="g8D-wz-fl9" />
+                                    <constraint firstItem="ZqX-lu-1SS" firstAttribute="trailing" secondItem="VAZ-fa-7x6" secondAttribute="trailing" constant="15" id="Hrg-48-utM" />
+                                    <constraint firstItem="VAZ-fa-7x6" firstAttribute="top" secondItem="ZqX-lu-1SS" secondAttribute="top" constant="15" id="hSL-ns-QfC" />
+                                    <constraint firstItem="ZqX-lu-1SS" firstAttribute="trailing" secondItem="OqB-AQ-nfX" secondAttribute="trailing" constant="30" id="tL7-Lr-DDE" />
+                                    <constraint firstItem="OqB-AQ-nfX" firstAttribute="top" secondItem="ZqX-lu-1SS" secondAttribute="top" constant="21" id="1xs-Mf-XKI" />
+                                    <constraint firstItem="8zB-4B-0WF" firstAttribute="leading" secondItem="ZqX-lu-1SS" secondAttribute="leading" constant="25" id="hRt-9x-EN5" />
+                                    <constraint firstItem="8zB-4B-0WF" firstAttribute="top" secondItem="ZqX-lu-1SS" secondAttribute="top" constant="208" id="vHQ-fj-ffA" />
+                                    <constraint firstItem="VCF-2M-EcB" firstAttribute="leading" secondItem="ZqX-lu-1SS" secondAttribute="leading" constant="25" id="u8P-rx-pYw" />
+                                    <constraint firstItem="ZqX-lu-1SS" firstAttribute="bottom" secondItem="VCF-2M-EcB" secondAttribute="bottom" constant="37" id="FGE-SH-7qy" />
+                                </constraints>
+                                <subviews>
+                                    <imageView id="IXR-Xk-Gqg" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="bikalpa-pokhrel-l4na2qrqk0s-unsplash">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="0" y="0" width="234" height="301" />
+                                        <constraints />
+                                    </imageView>
+                                    <view id="VAZ-fa-7x6" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.8784313797950745" green="0.9019607901573181" blue="0.9372549057006836" alpha="1.0" />
+                                        <rect key="frame" x="154" y="15" width="65" height="32" />
+                                        <constraints>
+                                            <constraint firstItem="VAZ-fa-7x6" firstAttribute="width" constant="65" id="yEY-fK-S9u" />
+                                            <constraint firstItem="VAZ-fa-7x6" firstAttribute="height" constant="32" id="DHs-0r-5fs" />
+                                        </constraints>
+                                        <subviews />
+                                    </view>
+                                    <label id="OqB-AQ-nfX" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="169" y="21" width="35" height="25" />
+                                        <constraints />
+                                        <string key="text">$120</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16" />
+                                        <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                    </label>
+                                    <label id="8zB-4B-0WF" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="25" y="208" width="68" height="32" />
+                                        <constraints />
+                                        <string key="text">Japan</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="21" />
+                                        <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                    </label>
+                                    <label id="VCF-2M-EcB" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="25" y="242" width="141" height="22" />
+                                        <constraints />
+                                        <string key="text">Osaka Street, Japan</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14" />
+                                        <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                    </label>
+                                </subviews>
+                            </view>
+                            <view id="CDu-Ig-4TI" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="284" y="269" width="234" height="301" />
+                                <constraints>
+                                    <constraint firstItem="CDu-Ig-4TI" firstAttribute="width" constant="234" id="Rdy-4u-q4G" />
+                                    <constraint firstItem="CDu-Ig-4TI" firstAttribute="height" constant="301" id="hZu-Gi-gyx" />
+                                    <constraint firstItem="Y6Q-DX-bGm" firstAttribute="leading" secondItem="CDu-Ig-4TI" secondAttribute="leading" constant="0" id="yTu-MI-cVS" />
+                                    <constraint firstItem="CDu-Ig-4TI" firstAttribute="trailing" secondItem="Y6Q-DX-bGm" secondAttribute="trailing" constant="0" id="dnz-3T-C0Q" />
+                                    <constraint firstItem="Y6Q-DX-bGm" firstAttribute="centerY" secondItem="CDu-Ig-4TI" secondAttribute="centerY" constant="0" id="6k1-vC-Ude" />
+                                    <constraint firstItem="CDu-Ig-4TI" firstAttribute="trailing" secondItem="9NU-s8-M4g" secondAttribute="trailing" constant="15" id="2aB-f3-TGi" />
+                                    <constraint firstItem="9NU-s8-M4g" firstAttribute="top" secondItem="CDu-Ig-4TI" secondAttribute="top" constant="15" id="NYE-uH-JCt" />
+                                    <constraint firstItem="CDu-Ig-4TI" firstAttribute="trailing" secondItem="pWc-Fw-erV" secondAttribute="trailing" constant="30" id="cRG-92-gyf" />
+                                    <constraint firstItem="pWc-Fw-erV" firstAttribute="top" secondItem="CDu-Ig-4TI" secondAttribute="top" constant="21" id="hqV-0H-Niv" />
+                                    <constraint firstItem="veO-Hk-ElE" firstAttribute="leading" secondItem="CDu-Ig-4TI" secondAttribute="leading" constant="25" id="VBH-5I-BZK" />
+                                    <constraint firstItem="veO-Hk-ElE" firstAttribute="top" secondItem="CDu-Ig-4TI" secondAttribute="top" constant="208" id="N7m-Gz-2Ov" />
+                                    <constraint firstItem="1wx-vZ-Aps" firstAttribute="leading" secondItem="CDu-Ig-4TI" secondAttribute="leading" constant="25" id="JRj-2V-jI2" />
+                                    <constraint firstItem="CDu-Ig-4TI" firstAttribute="bottom" secondItem="1wx-vZ-Aps" secondAttribute="bottom" constant="37" id="HX2-zG-2b5" />
+                                </constraints>
+                                <subviews>
+                                    <imageView id="Y6Q-DX-bGm" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="kabita-darlami-11hba7nddz0-unsplash">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="0" y="0" width="234" height="301" />
+                                        <constraints />
+                                    </imageView>
+                                    <view id="9NU-s8-M4g" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.8784313797950745" green="0.9019607901573181" blue="0.9372549057006836" alpha="1.0" />
+                                        <rect key="frame" x="154" y="15" width="65" height="32" />
+                                        <constraints>
+                                            <constraint firstItem="9NU-s8-M4g" firstAttribute="width" constant="65" id="2lj-0f-gDz" />
+                                            <constraint firstItem="9NU-s8-M4g" firstAttribute="height" constant="32" id="2z1-AF-3tJ" />
+                                        </constraints>
+                                        <subviews />
+                                    </view>
+                                    <label id="pWc-Fw-erV" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="169" y="21" width="35" height="25" />
+                                        <constraints />
+                                        <string key="text">$120</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16" />
+                                        <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                    </label>
+                                    <label id="veO-Hk-ElE" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="25" y="208" width="68" height="32" />
+                                        <constraints />
+                                        <string key="text">Japan</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="21" />
+                                        <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                    </label>
+                                    <label id="1wx-vZ-Aps" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="25" y="242" width="141" height="22" />
+                                        <constraints />
+                                        <string key="text">Osaka Street, Japan</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14" />
+                                        <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                    </label>
+                                </subviews>
+                            </view>
+                            <view id="Nwp-yD-dX5" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="30" y="665" width="209" height="90" />
+                                <constraints>
+                                    <constraint firstItem="Nwp-yD-dX5" firstAttribute="width" constant="209" id="2K7-kU-sJG" />
+                                    <constraint firstItem="Nwp-yD-dX5" firstAttribute="height" constant="90" id="mL9-2u-oox" />
+                                    <constraint firstItem="sRg-5O-caO" firstAttribute="leading" secondItem="Nwp-yD-dX5" secondAttribute="leading" constant="0" id="odW-Ql-OWB" />
+                                    <constraint firstItem="Nwp-yD-dX5" firstAttribute="trailing" secondItem="sRg-5O-caO" secondAttribute="trailing" constant="0" id="ozu-6f-6QO" />
+                                    <constraint firstItem="sRg-5O-caO" firstAttribute="centerY" secondItem="Nwp-yD-dX5" secondAttribute="centerY" constant="0" id="tkX-aq-pJ8" />
+                                    <constraint firstItem="BBF-vB-dYb" firstAttribute="leading" secondItem="Nwp-yD-dX5" secondAttribute="leading" constant="6" id="tVv-zo-bwH" />
+                                    <constraint firstItem="BBF-vB-dYb" firstAttribute="centerY" secondItem="Nwp-yD-dX5" secondAttribute="centerY" constant="0" id="aQ2-Mg-Ix4" />
+                                    <constraint firstItem="Nwp-yD-dX5" firstAttribute="trailing" secondItem="JrE-27-qse" secondAttribute="trailing" constant="26" id="rR0-Bo-s8I" />
+                                    <constraint firstItem="JrE-27-qse" firstAttribute="centerY" secondItem="Nwp-yD-dX5" secondAttribute="centerY" constant="0" id="9Dl-M4-h0c" />
+                                </constraints>
+                                <subviews>
+                                    <imageView id="sRg-5O-caO" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="path-100">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="0" y="0" width="209" height="90" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="BBF-vB-dYb" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="domenico-loia--zl4e-0s50w-unsplash">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="6" y="6" width="98" height="78" />
+                                        <constraints />
+                                    </imageView>
+                                    <view id="JrE-27-qse" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="119" y="21" width="64" height="52" />
+                                        <constraints>
+                                            <constraint firstItem="JrE-27-qse" firstAttribute="width" constant="64" id="08J-4w-IXz" />
+                                            <constraint firstItem="JrE-27-qse" firstAttribute="height" constant="52" id="99d-ZT-sri" />
+                                            <constraint firstItem="69M-pu-doe" firstAttribute="leading" secondItem="JrE-27-qse" secondAttribute="leading" constant="0" id="4FF-S5-y9v" />
+                                            <constraint firstItem="JrE-27-qse" firstAttribute="trailing" secondItem="69M-pu-doe" secondAttribute="trailing" constant="11" id="zlp-c2-OYc" />
+                                            <constraint firstItem="69M-pu-doe" firstAttribute="top" secondItem="JrE-27-qse" secondAttribute="top" constant="0" id="isz-EN-Pcv" />
+                                            <constraint firstItem="1SN-CJ-3nL" firstAttribute="leading" secondItem="JrE-27-qse" secondAttribute="leading" constant="0" id="UFy-9o-Ml4" />
+                                            <constraint firstItem="JrE-27-qse" firstAttribute="trailing" secondItem="1SN-CJ-3nL" secondAttribute="trailing" constant="0" id="q4V-u0-BYP" />
+                                            <constraint firstItem="JrE-27-qse" firstAttribute="bottom" secondItem="1SN-CJ-3nL" secondAttribute="bottom" constant="0" id="jd8-ea-B5E" />
+                                        </constraints>
+                                        <subviews>
+                                            <label id="69M-pu-doe" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                                <rect key="frame" x="0" y="0" width="53" height="27" />
+                                                <constraints />
+                                                <string key="text">Nepal</string>
+                                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="18" />
+                                                <color key="textColor" colorSpace="calibratedRGB" red="0.12941177189350128" green="0.1882352977991104" blue="0.30980393290519714" alpha="1.0" />
+                                            </label>
+                                            <label id="1SN-CJ-3nL" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.5" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                                <rect key="frame" x="0" y="30" width="64" height="22" />
+                                                <constraints />
+                                                <string key="text">Bandung</string>
+                                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14" />
+                                                <color key="textColor" colorSpace="calibratedRGB" red="0.12941177189350128" green="0.1882352977991104" blue="0.30980393290519714" alpha="1.0" />
+                                            </label>
+                                        </subviews>
+                                    </view>
+                                </subviews>
+                            </view>
+                            <view id="Yg5-1m-5rT" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="269" y="665" width="209" height="90" />
+                                <constraints>
+                                    <constraint firstItem="Yg5-1m-5rT" firstAttribute="width" constant="209" id="bUm-MY-h2x" />
+                                    <constraint firstItem="Yg5-1m-5rT" firstAttribute="height" constant="90" id="Tt4-2S-ohz" />
+                                    <constraint firstItem="ooK-z3-TVM" firstAttribute="leading" secondItem="Yg5-1m-5rT" secondAttribute="leading" constant="0" id="4eK-y2-rb7" />
+                                    <constraint firstItem="Yg5-1m-5rT" firstAttribute="trailing" secondItem="ooK-z3-TVM" secondAttribute="trailing" constant="0" id="vL0-aB-RA4" />
+                                    <constraint firstItem="ooK-z3-TVM" firstAttribute="centerY" secondItem="Yg5-1m-5rT" secondAttribute="centerY" constant="0" id="Ql0-YG-Di6" />
+                                    <constraint firstItem="QE2-4H-2m1" firstAttribute="leading" secondItem="Yg5-1m-5rT" secondAttribute="leading" constant="6" id="dfr-BI-H1i" />
+                                    <constraint firstItem="QE2-4H-2m1" firstAttribute="centerY" secondItem="Yg5-1m-5rT" secondAttribute="centerY" constant="0" id="xKU-cp-D6e" />
+                                    <constraint firstItem="Yg5-1m-5rT" firstAttribute="trailing" secondItem="CV4-CG-Q75" secondAttribute="trailing" constant="26" id="zRY-1s-Qke" />
+                                    <constraint firstItem="CV4-CG-Q75" firstAttribute="centerY" secondItem="Yg5-1m-5rT" secondAttribute="centerY" constant="0" id="kcf-sQ-bca" />
+                                </constraints>
+                                <subviews>
+                                    <imageView id="ooK-z3-TVM" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="path-100-2">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="0" y="0" width="209" height="90" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="QE2-4H-2m1" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="waqas-akhtar--a4cjhecb-a-unsplash">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="6" y="6" width="98" height="78" />
+                                        <constraints />
+                                    </imageView>
+                                    <view id="CV4-CG-Q75" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="119" y="21" width="64" height="52" />
+                                        <constraints>
+                                            <constraint firstItem="CV4-CG-Q75" firstAttribute="width" constant="64" id="GlG-kf-N6T" />
+                                            <constraint firstItem="CV4-CG-Q75" firstAttribute="height" constant="52" id="BNC-Dj-DSp" />
+                                            <constraint firstItem="lQ3-A5-cER" firstAttribute="leading" secondItem="CV4-CG-Q75" secondAttribute="leading" constant="0" id="5Dk-5b-KTw" />
+                                            <constraint firstItem="CV4-CG-Q75" firstAttribute="trailing" secondItem="lQ3-A5-cER" secondAttribute="trailing" constant="11" id="7ob-R6-MyO" />
+                                            <constraint firstItem="lQ3-A5-cER" firstAttribute="top" secondItem="CV4-CG-Q75" secondAttribute="top" constant="0" id="72z-tO-4Du" />
+                                            <constraint firstItem="yJB-aY-t5n" firstAttribute="leading" secondItem="CV4-CG-Q75" secondAttribute="leading" constant="0" id="kUR-l0-2DF" />
+                                            <constraint firstItem="CV4-CG-Q75" firstAttribute="trailing" secondItem="yJB-aY-t5n" secondAttribute="trailing" constant="0" id="QJe-6o-dP4" />
+                                            <constraint firstItem="CV4-CG-Q75" firstAttribute="bottom" secondItem="yJB-aY-t5n" secondAttribute="bottom" constant="0" id="7TT-6t-m8E" />
+                                        </constraints>
+                                        <subviews>
+                                            <label id="lQ3-A5-cER" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                                <rect key="frame" x="0" y="0" width="53" height="27" />
+                                                <constraints />
+                                                <string key="text">Nepal</string>
+                                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="18" />
+                                                <color key="textColor" colorSpace="calibratedRGB" red="0.12941177189350128" green="0.1882352977991104" blue="0.30980393290519714" alpha="1.0" />
+                                            </label>
+                                            <label id="yJB-aY-t5n" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.5" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                                <rect key="frame" x="0" y="30" width="64" height="22" />
+                                                <constraints />
+                                                <string key="text">Bandung</string>
+                                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14" />
+                                                <color key="textColor" colorSpace="calibratedRGB" red="0.12941177189350128" green="0.1882352977991104" blue="0.30980393290519714" alpha="1.0" />
+                                            </label>
+                                        </subviews>
+                                    </view>
+                                </subviews>
+                            </view>
+                        </subviews>
+                    </view>
+                    <tabBarItem id="2hy-kN-V64" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" key="tabBarItem">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="0" y="0" width="0" height="0" />
+                        <constraints />
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="group62View" destination="ySs-DY-nCQ" id="gL2-Uw-Fzo" />
+                        <outlet property="rectangle8Button" destination="sBb-Ci-FTj" id="eTR-2e-sFy" />
+                        <outlet property="imageViewImageView" destination="4Ut-wk-Buv" id="DYB-23-c9t" />
+                        <outlet property="group66View" destination="ja9-RC-rL8" id="nCR-DU-5V4" />
+                        <outlet property="ellipse31View" destination="N6A-BY-Smy" id="hzz-pt-ukH" />
+                        <outlet property="rectangle6View" destination="dEh-fK-EdC" id="YAj-IE-zKU" />
+                        <outlet property="rectangle43View" destination="DHQ-Bo-Kpa" id="Fkz-Z9-AWm" />
+                        <outlet property="ellipse33View" destination="MJa-xP-bEQ" id="YYT-3S-sLX" />
+                        <outlet property="group72View" destination="ZqX-lu-1SS" id="InM-6e-pDh" />
+                        <outlet property="rectangle46View" destination="VAZ-fa-7x6" id="dVS-nS-kGS" />
+                        <outlet property="group73View" destination="CDu-Ig-4TI" id="iPx-uc-fzu" />
+                        <outlet property="rectangle46TwoView" destination="9NU-s8-M4g" id="eTC-z7-ena" />
+                        <outlet property="path100ImageView" destination="sRg-5O-caO" id="xQt-XJ-LzZ" />
+                        <outlet property="path100TwoImageView" destination="ooK-z3-TVM" id="fq5-R8-RmH" />
+                        <segue destination="kfh-kM-zYA" kind="show" id="gu4-b8-BGi" identifier="Push 03" />
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MqN-JY-8gd" userLabel="First Responder" sceneMemberID="firstResponder" />
+            </objects>
+            <point key="canvasLocation" x="2278" y="3024" />
+        </scene>
+        <scene sceneID="YgA-xm-CLG">
+            <objects>
+                <viewController id="kfh-kM-zYA" sceneMemberID="viewController" customModule="iOS_Development" customModuleProvider="target" customClass="ScreenThreeViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rfx-T9-LV0" />
+                        <viewControllerLayoutGuide type="bottom" id="7ZY-Fg-IZp" />
+                    </layoutGuides>
+                    <view id="pd7-2m-f6d" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" key="view">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9843137264251709" green="0.9921568632125854" blue="1.0" alpha="1.0" />
+                        <rect key="frame" x="0" y="0" width="428" height="926" />
+                        <constraints>
+                            <constraint firstItem="gG4-55-x0U" firstAttribute="leading" secondItem="pd7-2m-f6d" secondAttribute="leading" constant="30" id="VL8-2L-Hqe" />
+                            <constraint firstItem="gG4-55-x0U" firstAttribute="top" secondItem="AUd-HN-QMK" secondAttribute="bottom" constant="26" id="r2l-Ge-6U7" />
+                            <constraint firstItem="voF-n1-L0M" firstAttribute="leading" secondItem="gG4-55-x0U" secondAttribute="trailing" constant="25" id="ydA-DP-CRt" />
+                            <constraint firstItem="voF-n1-L0M" firstAttribute="top" secondItem="AUd-HN-QMK" secondAttribute="bottom" constant="33" id="5uW-f7-W6Y" />
+                            <constraint firstItem="lF4-vy-QBc" firstAttribute="leading" secondItem="pd7-2m-f6d" secondAttribute="leading" constant="30" id="OW0-dy-qJD" />
+                            <constraint firstItem="lF4-vy-QBc" firstAttribute="top" secondItem="gG4-55-x0U" secondAttribute="bottom" constant="16" id="soc-Db-NYc" />
+                            <constraint firstItem="pd7-2m-f6d" firstAttribute="trailing" secondItem="Crm-cW-uK2" secondAttribute="trailing" constant="30" id="PD7-4D-1aL" />
+                            <constraint firstItem="Crm-cW-uK2" firstAttribute="top" secondItem="voF-n1-L0M" secondAttribute="bottom" constant="20" id="zw5-vi-AXG" />
+                            <constraint firstItem="kJR-7t-rHl" firstAttribute="leading" secondItem="pd7-2m-f6d" secondAttribute="leading" constant="45" id="bNK-sA-Jb9" />
+                            <constraint firstItem="kJR-7t-rHl" firstAttribute="top" secondItem="gG4-55-x0U" secondAttribute="bottom" constant="31" id="cI0-j9-J3j" />
+                            <constraint firstItem="08d-jg-Xib" firstAttribute="leading" secondItem="fT5-wf-vY1" secondAttribute="trailing" constant="15" id="l5c-PY-05d" />
+                            <constraint firstItem="fT5-wf-vY1" firstAttribute="top" secondItem="AUd-HN-QMK" secondAttribute="bottom" constant="93" id="JLy-mJ-Kkq" />
+                            <constraint firstItem="2FW-d1-m9e" firstAttribute="leading" secondItem="pd7-2m-f6d" secondAttribute="leading" constant="58" id="LbC-8z-P7j" />
+                            <constraint firstItem="2FW-d1-m9e" firstAttribute="top" secondItem="gG4-55-x0U" secondAttribute="bottom" constant="44" id="do8-4m-Lxq" />
+                            <constraint firstItem="AUd-HN-QMK" firstAttribute="leading" secondItem="pd7-2m-f6d" secondAttribute="leading" constant="19" id="jFo-W3-pnL" />
+                            <constraint firstItem="pd7-2m-f6d" firstAttribute="trailing" secondItem="AUd-HN-QMK" secondAttribute="trailing" constant="19" id="zRp-WE-UiI" />
+                            <constraint firstItem="AUd-HN-QMK" firstAttribute="top" secondItem="pd7-2m-f6d" secondAttribute="top" constant="19" id="ngv-Yc-0Er" />
+                            <constraint firstItem="fJt-Gn-rE9" firstAttribute="leading" secondItem="kJR-7t-rHl" secondAttribute="trailing" constant="15" id="dwp-Ph-kVW" />
+                            <constraint firstItem="fJt-Gn-rE9" firstAttribute="top" secondItem="gG4-55-x0U" secondAttribute="bottom" constant="33" id="gKJ-za-DO0" />
+                            <constraint firstItem="fyn-u4-mts" firstAttribute="leading" secondItem="kJR-7t-rHl" secondAttribute="trailing" constant="15" id="Q4m-rF-5JR" />
+                            <constraint firstItem="fyn-u4-mts" firstAttribute="top" secondItem="fJt-Gn-rE9" secondAttribute="bottom" constant="0" id="fYp-s9-uZx" />
+                            <constraint firstItem="pd7-2m-f6d" firstAttribute="trailing" secondItem="08d-jg-Xib" secondAttribute="trailing" constant="76" id="Paj-j9-kbj" />
+                            <constraint firstItem="08d-jg-Xib" firstAttribute="top" secondItem="AUd-HN-QMK" secondAttribute="bottom" constant="95" id="Tjk-CS-xmg" />
+                            <constraint firstItem="pd7-2m-f6d" firstAttribute="trailing" secondItem="gi0-vI-y65" secondAttribute="trailing" constant="61" id="g9g-KJ-E1X" />
+                            <constraint firstItem="gi0-vI-y65" firstAttribute="top" secondItem="08d-jg-Xib" secondAttribute="bottom" constant="0" id="5NW-7Z-ZYE" />
+                            <constraint firstItem="08d-jg-Xib" firstAttribute="leading" secondItem="l4K-Di-roh" secondAttribute="trailing" constant="26" id="XhD-Z0-Jzf" />
+                            <constraint firstItem="l4K-Di-roh" firstAttribute="top" secondItem="AUd-HN-QMK" secondAttribute="bottom" constant="104" id="kLP-3Z-YCD" />
+                            <constraint firstItem="pd7-2m-f6d" firstAttribute="trailing" secondItem="9t8-pT-vOR" secondAttribute="trailing" constant="-1616" id="Psi-sX-wC5" />
+                            <constraint firstItem="PzA-7i-qvw" firstAttribute="top" secondItem="9t8-pT-vOR" secondAttribute="bottom" constant="60" id="mdm-pw-Iuu" />
+                            <constraint firstItem="PzA-7i-qvw" firstAttribute="leading" secondItem="pd7-2m-f6d" secondAttribute="leading" constant="0" id="vlr-GQ-5cm" />
+                            <constraint firstItem="pd7-2m-f6d" firstAttribute="trailing" secondItem="PzA-7i-qvw" secondAttribute="trailing" constant="0" id="8HD-lE-IES" />
+                            <constraint firstItem="pd7-2m-f6d" firstAttribute="bottom" secondItem="PzA-7i-qvw" secondAttribute="bottom" constant="0" id="aug-Cn-ryD" />
+                            <constraint firstItem="IRT-bQ-sum" firstAttribute="leading" secondItem="pd7-2m-f6d" secondAttribute="leading" constant="62" id="LaA-1l-PGo" />
+                            <constraint firstItem="pd7-2m-f6d" firstAttribute="bottom" secondItem="IRT-bQ-sum" secondAttribute="bottom" constant="50" id="pc0-qD-8e0" />
+                            <constraint firstItem="Xxy-t2-Epy" firstAttribute="leading" secondItem="pd7-2m-f6d" secondAttribute="leading" constant="157" id="LPt-2p-MQ5" />
+                            <constraint firstItem="pd7-2m-f6d" firstAttribute="bottom" secondItem="Xxy-t2-Epy" secondAttribute="bottom" constant="65" id="739-Dy-lAa" />
+                            <constraint firstItem="pd7-2m-f6d" firstAttribute="trailing" secondItem="TXr-Wn-xhX" secondAttribute="trailing" constant="119" id="57H-on-2Vv" />
+                            <constraint firstItem="pd7-2m-f6d" firstAttribute="bottom" secondItem="TXr-Wn-xhX" secondAttribute="bottom" constant="78" id="k4z-rw-Cmc" />
+                        </constraints>
+                        <subviews>
+                            <label id="gG4-55-x0U" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="30" y="545" width="111" height="36" />
+                                <constraints />
+                                <string key="text">Overview</string>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="24" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="0.529411792755127" blue="0.2078431397676468" alpha="1.0" />
+                            </label>
+                            <label id="voF-n1-L0M" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.5" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="166" y="552" width="64" height="25" />
+                                <constraints />
+                                <string key="text">Reviews</string>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.12941177189350128" green="0.1882352977991104" blue="0.30980393290519714" alpha="1.0" />
+                            </label>
+                            <view id="lF4-vy-QBc" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                <rect key="frame" x="30" y="597" width="175" height="79" />
+                                <constraints>
+                                    <constraint firstItem="lF4-vy-QBc" firstAttribute="width" constant="175" id="Q3d-0X-OLJ" />
+                                    <constraint firstItem="lF4-vy-QBc" firstAttribute="height" constant="79" id="G6B-0J-pnZ" />
+                                </constraints>
+                                <subviews />
+                            </view>
+                            <view id="Crm-cW-uK2" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                <rect key="frame" x="223" y="597" width="175" height="79" />
+                                <constraints>
+                                    <constraint firstItem="Crm-cW-uK2" firstAttribute="width" constant="175" id="kQT-Yf-miU" />
+                                    <constraint firstItem="Crm-cW-uK2" firstAttribute="height" constant="79" id="8eP-Ch-QFH" />
+                                </constraints>
+                                <subviews />
+                            </view>
+                            <view id="kJR-7t-rHl" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.5" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="0.9215686321258545" blue="0.8666666746139526" alpha="1.0" />
+                                <rect key="frame" x="45" y="612" width="49" height="49" />
+                                <constraints>
+                                    <constraint firstItem="kJR-7t-rHl" firstAttribute="width" constant="49" id="HBv-4X-ziI" />
+                                    <constraint firstItem="kJR-7t-rHl" firstAttribute="height" constant="49" id="ena-FP-MQi" />
+                                </constraints>
+                                <subviews />
+                            </view>
+                            <view id="fT5-wf-vY1" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.5" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="0.9215686321258545" blue="0.8666666746139526" alpha="1.0" />
+                                <rect key="frame" x="238" y="612" width="49" height="49" />
+                                <constraints>
+                                    <constraint firstItem="fT5-wf-vY1" firstAttribute="width" constant="49" id="yqv-gk-4s1" />
+                                    <constraint firstItem="fT5-wf-vY1" firstAttribute="height" constant="49" id="m0p-R9-Lhc" />
+                                </constraints>
+                                <subviews />
+                            </view>
+                            <imageView id="2FW-d1-m9e" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="2561404-clock-icon">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="58" y="625" width="24" height="24" />
+                                <constraints />
+                            </imageView>
+                            <view id="AUd-HN-QMK" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="19" y="19" width="390" height="500" />
+                                <constraints>
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="height" constant="500" id="Nwm-Z4-gWQ" />
+                                    <constraint firstItem="uhl-GN-oMU" firstAttribute="leading" secondItem="AUd-HN-QMK" secondAttribute="leading" constant="0" id="w44-3B-i07" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="trailing" secondItem="uhl-GN-oMU" secondAttribute="trailing" constant="0" id="mdq-q9-80o" />
+                                    <constraint firstItem="uhl-GN-oMU" firstAttribute="centerY" secondItem="AUd-HN-QMK" secondAttribute="centerY" constant="0" id="NsS-FK-hn2" />
+                                    <constraint firstItem="u4K-xD-jmE" firstAttribute="leading" secondItem="AUd-HN-QMK" secondAttribute="leading" constant="16" id="9Kj-ME-V80" />
+                                    <constraint firstItem="u4K-xD-jmE" firstAttribute="top" secondItem="AUd-HN-QMK" secondAttribute="top" constant="43" id="am5-sN-NDT" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="trailing" secondItem="fMO-IN-XHi" secondAttribute="trailing" constant="16" id="a3I-Q9-lnK" />
+                                    <constraint firstItem="fMO-IN-XHi" firstAttribute="top" secondItem="AUd-HN-QMK" secondAttribute="top" constant="43" id="R6B-Kh-Ddm" />
+                                    <constraint firstItem="XBR-Cq-uiN" firstAttribute="leading" secondItem="AUd-HN-QMK" secondAttribute="leading" constant="21" id="Ttd-cb-YMg" />
+                                    <constraint firstItem="XBR-Cq-uiN" firstAttribute="top" secondItem="AUd-HN-QMK" secondAttribute="top" constant="48" id="CSU-bV-BkV" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="trailing" secondItem="TYk-kU-2kC" secondAttribute="trailing" constant="21" id="gPv-ME-MPN" />
+                                    <constraint firstItem="TYk-kU-2kC" firstAttribute="top" secondItem="AUd-HN-QMK" secondAttribute="top" constant="48" id="Y5V-im-a3J" />
+                                    <constraint firstItem="mJh-Ft-dx6" firstAttribute="leading" secondItem="AUd-HN-QMK" secondAttribute="leading" constant="35" id="2Ss-w3-cca" />
+                                    <constraint firstItem="mJh-Ft-dx6" firstAttribute="top" secondItem="AUd-HN-QMK" secondAttribute="top" constant="59" id="TTy-8F-O96" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="trailing" secondItem="8Iw-fI-pIh" secondAttribute="trailing" constant="30" id="qyE-xa-4yk" />
+                                    <constraint firstItem="8Iw-fI-pIh" firstAttribute="top" secondItem="AUd-HN-QMK" secondAttribute="top" constant="58" id="CDB-4i-thB" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="trailing" secondItem="esU-of-ihK" secondAttribute="trailing" constant="33" id="085-IM-uaV" />
+                                    <constraint firstItem="esU-of-ihK" firstAttribute="top" secondItem="AUd-HN-QMK" secondAttribute="top" constant="61" id="WL4-hl-D9I" />
+                                    <constraint firstItem="oMy-RY-9vR" firstAttribute="leading" secondItem="AUd-HN-QMK" secondAttribute="leading" constant="25" id="hVu-3D-7ut" />
+                                    <constraint firstItem="oMy-RY-9vR" firstAttribute="top" secondItem="u4K-xD-jmE" secondAttribute="bottom" constant="256" id="IAe-9i-vAM" />
+                                    <constraint firstItem="jOv-65-2dN" firstAttribute="leading" secondItem="AUd-HN-QMK" secondAttribute="leading" constant="25" id="5FV-KE-VkS" />
+                                    <constraint firstItem="RuX-Y2-sun" firstAttribute="top" secondItem="jOv-65-2dN" secondAttribute="bottom" constant="3" id="6Iq-pM-60k" />
+                                    <constraint firstItem="rGz-q9-xiL" firstAttribute="leading" secondItem="RuX-Y2-sun" secondAttribute="trailing" constant="6" id="ilK-gJ-lpO" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="bottom" secondItem="rGz-q9-xiL" secondAttribute="bottom" constant="32" id="VHi-D8-Sia" />
+                                    <constraint firstItem="RuX-Y2-sun" firstAttribute="leading" secondItem="AUd-HN-QMK" secondAttribute="leading" constant="25" id="PD8-dx-PXk" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="bottom" secondItem="RuX-Y2-sun" secondAttribute="bottom" constant="26" id="rQK-gp-ihU" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="trailing" secondItem="A9j-VK-0oh" secondAttribute="trailing" constant="25" id="wKX-sI-bgN" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="bottom" secondItem="A9j-VK-0oh" secondAttribute="bottom" constant="30" id="xB2-YK-uSj" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="trailing" secondItem="eXN-56-d0a" secondAttribute="trailing" constant="25" id="coo-AF-Xgz" />
+                                    <constraint firstItem="A9j-VK-0oh" firstAttribute="top" secondItem="eXN-56-d0a" secondAttribute="bottom" constant="10" id="v2G-0W-3Tj" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="trailing" secondItem="Duh-0r-7hx" secondAttribute="trailing" constant="25" id="lgX-kX-189" />
+                                    <constraint firstItem="Duh-0r-7hx" firstAttribute="top" secondItem="fMO-IN-XHi" secondAttribute="bottom" constant="194" id="2F2-W6-XSh" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="trailing" secondItem="s2i-CC-z78" secondAttribute="trailing" constant="30" id="tUE-dS-G9Q" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="bottom" secondItem="s2i-CC-z78" secondAttribute="bottom" constant="35" id="Om0-5a-W57" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="trailing" secondItem="Cn5-nl-eun" secondAttribute="trailing" constant="30" id="jH9-kH-QeV" />
+                                    <constraint firstItem="A9j-VK-0oh" firstAttribute="top" secondItem="Cn5-nl-eun" secondAttribute="bottom" constant="15" id="uJt-fh-sTu" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="trailing" secondItem="mBS-hn-Zk8" secondAttribute="trailing" constant="30" id="8l3-L0-89g" />
+                                    <constraint firstItem="mBS-hn-Zk8" firstAttribute="top" secondItem="fMO-IN-XHi" secondAttribute="bottom" constant="199" id="3HN-GG-w2l" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="trailing" secondItem="YiC-W4-UH6" secondAttribute="trailing" constant="25" id="WaD-mF-Vye" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="bottom" secondItem="YiC-W4-UH6" secondAttribute="bottom" constant="30" id="AoP-fF-qZs" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="trailing" secondItem="l58-lY-6FM" secondAttribute="trailing" constant="40" id="Dcm-V8-4tH" />
+                                    <constraint firstItem="AUd-HN-QMK" firstAttribute="bottom" secondItem="l58-lY-6FM" secondAttribute="bottom" constant="43" id="174-JF-hPk" />
+                                </constraints>
+                                <subviews>
+                                    <imageView id="uhl-GN-oMU" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="rolands-varsbergs-mikmvyq3qhe-unsplash-3">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="0" y="0" width="390" height="500" />
+                                        <constraints />
+                                    </imageView>
+                                    <view id="u4K-xD-jmE" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.800000011920929" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                        <rect key="frame" x="16" y="43" width="45" height="45" />
+                                        <constraints>
+                                            <constraint firstItem="u4K-xD-jmE" firstAttribute="width" constant="45" id="hsc-3P-HL3" />
+                                            <constraint firstItem="u4K-xD-jmE" firstAttribute="height" constant="45" id="MKd-K7-1Wf" />
+                                        </constraints>
+                                        <subviews />
+                                    </view>
+                                    <view id="fMO-IN-XHi" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.800000011920929" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                        <rect key="frame" x="329" y="43" width="45" height="45" />
+                                        <constraints>
+                                            <constraint firstItem="fMO-IN-XHi" firstAttribute="width" constant="45" id="sRe-l9-c1D" />
+                                            <constraint firstItem="fMO-IN-XHi" firstAttribute="height" constant="45" id="l6V-PR-uFC" />
+                                        </constraints>
+                                        <subviews />
+                                    </view>
+                                    <view id="XBR-Cq-uiN" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                        <rect key="frame" x="21" y="48" width="35" height="35" />
+                                        <constraints>
+                                            <constraint firstItem="XBR-Cq-uiN" firstAttribute="width" constant="35" id="IH4-eU-yXn" />
+                                            <constraint firstItem="XBR-Cq-uiN" firstAttribute="height" constant="35" id="4He-xl-8RJ" />
+                                        </constraints>
+                                        <subviews />
+                                    </view>
+                                    <view id="TYk-kU-2kC" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                        <rect key="frame" x="334" y="48" width="35" height="35" />
+                                        <constraints>
+                                            <constraint firstItem="TYk-kU-2kC" firstAttribute="width" constant="35" id="ILW-m2-Zgq" />
+                                            <constraint firstItem="TYk-kU-2kC" firstAttribute="height" constant="35" id="ZAI-L8-BvJ" />
+                                        </constraints>
+                                        <subviews />
+                                    </view>
+                                    <imageView id="mJh-Ft-dx6" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="path-101">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="35" y="59" width="8" height="14" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="8Iw-fI-pIh" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="layer-54">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="343" y="58" width="17" height="15" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="esU-of-ihK" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="path-102">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="355" y="61" width="2" height="2" />
+                                        <constraints />
+                                    </imageView>
+                                    <label id="oMy-RY-9vR" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="25" y="344" width="128" height="61" />
+                                        <constraints />
+                                        <string key="text">Japan</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="40" />
+                                        <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                    </label>
+                                    <label id="jOv-65-2dN" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="25" y="404" width="201" height="31" />
+                                        <constraints />
+                                        <string key="text">Osaka Street, Japan</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="20" />
+                                        <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                    </label>
+                                    <label id="rGz-q9-xiL" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.699999988079071" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="83" y="449" width="47" height="19" />
+                                        <constraints />
+                                        <string key="text">/Person</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12" />
+                                        <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                    </label>
+                                    <label id="RuX-Y2-sun" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="25" y="438" width="52" height="36" />
+                                        <constraints />
+                                        <string key="text">$120</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="24" />
+                                        <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="0.529411792755127" blue="0.2078431397676468" alpha="1.0" />
+                                    </label>
+                                    <view id="A9j-VK-0oh" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.5" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.8941176533699036" green="0.8941176533699036" blue="0.8941176533699036" alpha="1.0" />
+                                        <rect key="frame" x="309" y="414" width="56" height="56" />
+                                        <constraints>
+                                            <constraint firstItem="A9j-VK-0oh" firstAttribute="width" constant="56" id="Guz-WL-FoV" />
+                                            <constraint firstItem="A9j-VK-0oh" firstAttribute="height" constant="56" id="uJX-xI-wlN" />
+                                        </constraints>
+                                        <subviews />
+                                    </view>
+                                    <view id="eXN-56-d0a" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.5" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.8941176533699036" green="0.8941176533699036" blue="0.8941176533699036" alpha="1.0" />
+                                        <rect key="frame" x="309" y="348" width="56" height="56" />
+                                        <constraints>
+                                            <constraint firstItem="eXN-56-d0a" firstAttribute="width" constant="56" id="OqD-FP-ZJv" />
+                                            <constraint firstItem="eXN-56-d0a" firstAttribute="height" constant="56" id="aoq-Li-PPh" />
+                                        </constraints>
+                                        <subviews />
+                                    </view>
+                                    <view id="Duh-0r-7hx" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.5" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.8941176533699036" green="0.8941176533699036" blue="0.8941176533699036" alpha="1.0" />
+                                        <rect key="frame" x="309" y="282" width="56" height="56" />
+                                        <constraints>
+                                            <constraint firstItem="Duh-0r-7hx" firstAttribute="width" constant="56" id="vCr-DN-k7R" />
+                                            <constraint firstItem="Duh-0r-7hx" firstAttribute="height" constant="56" id="ZxC-I0-bOU" />
+                                        </constraints>
+                                        <subviews />
+                                    </view>
+                                    <imageView id="s2i-CC-z78" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="raimond-klavins-jqt2wp5s0dk-unsplash-5">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="314" y="419" width="46" height="46" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="Cn5-nl-eun" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="bikalpa-pokhrel-l4na2qrqk0s-unsplash-5">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="314" y="353" width="46" height="46" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="mBS-hn-Zk8" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="kabita-darlami-11hba7nddz0-unsplash-5">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="314" y="287" width="46" height="46" />
+                                        <constraints />
+                                    </imageView>
+                                    <view id="YiC-W4-UH6" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.800000011920929" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.47843137383461" green="0.47843137383461" blue="0.47843137383461" alpha="1.0" />
+                                        <rect key="frame" x="309" y="414" width="56" height="56" />
+                                        <constraints>
+                                            <constraint firstItem="YiC-W4-UH6" firstAttribute="width" constant="56" id="5fL-ZP-5AX" />
+                                            <constraint firstItem="YiC-W4-UH6" firstAttribute="height" constant="56" id="MUN-L1-mBe" />
+                                        </constraints>
+                                        <subviews />
+                                    </view>
+                                    <label id="l58-lY-6FM" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="center">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="323" y="432" width="27" height="25" />
+                                        <constraints />
+                                        <string key="text">+10</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16" />
+                                        <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                                    </label>
+                                </subviews>
+                            </view>
+                            <label id="fJt-Gn-rE9" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.5" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="109" y="614" width="70" height="22" />
+                                <constraints />
+                                <string key="text">DURATION</string>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.12941177189350128" green="0.1882352977991104" blue="0.30980393290519714" alpha="1.0" />
+                            </label>
+                            <label id="fyn-u4-mts" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="109" y="636" width="67" height="27" />
+                                <constraints />
+                                <string key="text">5 hours</string>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="18" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.12941177189350128" green="0.1882352977991104" blue="0.30980393290519714" alpha="1.0" />
+                            </label>
+                            <label id="08d-jg-Xib" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.5" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="302" y="614" width="50" height="22" />
+                                <constraints />
+                                <string key="text">RATING</string>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.12941177189350128" green="0.1882352977991104" blue="0.30980393290519714" alpha="1.0" />
+                            </label>
+                            <label id="gi0-vI-y65" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="302" y="636" width="65" height="27" />
+                                <constraints />
+                                <string key="text">4.5 of 5</string>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="18" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.12941177189350128" green="0.1882352977991104" blue="0.30980393290519714" alpha="1.0" />
+                            </label>
+                            <imageView id="l4K-Di-roh" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="polygon-1-2">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="249" y="623" width="27" height="27" />
+                                <constraints />
+                            </imageView>
+                            <label id="9t8-pT-vOR" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.5" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="30" y="685" width="2014" height="25" />
+                                <constraints />
+                                <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.12941177189350128" green="0.1882352977991104" blue="0.30980393290519714" alpha="1.0" />
+                            </label>
+                            <view id="PzA-7i-qvw" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="0" y="770" width="428" height="156" />
+                                <constraints>
+                                    <constraint firstItem="PzA-7i-qvw" firstAttribute="height" constant="156" id="O1E-iS-7ST" />
+                                </constraints>
+                                <subviews />
+                            </view>
+                            <imageView id="IRT-bQ-sum" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="path-99">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="62" y="809" width="287" height="67" />
+                                <constraints />
+                            </imageView>
+                            <label id="Xxy-t2-Epy" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="center">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="157" y="829" width="97" height="32" />
+                                <constraints />
+                                <string key="text">Book Now</string>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="20" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                            </label>
+                            <imageView id="TXr-Wn-xhX" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="group-78">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="292" y="837" width="17" height="11" />
+                                <constraints />
+                            </imageView>
+                        </subviews>
+                    </view>
+                    <tabBarItem id="4QZ-Tg-mUu" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" key="tabBarItem">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="0" y="0" width="0" height="0" />
+                        <constraints />
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="rectangle54View" destination="lF4-vy-QBc" id="l3y-lg-qUM" />
+                        <outlet property="rectangle56View" destination="Crm-cW-uK2" id="Xgr-Ng-Gwr" />
+                        <outlet property="rectangle55View" destination="kJR-7t-rHl" id="AgL-zR-vtm" />
+                        <outlet property="rectangle57View" destination="fT5-wf-vY1" id="Tum-jC-LIG" />
+                        <outlet property="group77View" destination="AUd-HN-QMK" id="vCD-gX-Jlq" />
+                        <outlet property="rolandsVarsbergsMiImageView" destination="uhl-GN-oMU" id="3uZ-r2-X0W" />
+                        <outlet property="rectangle13View" destination="u4K-xD-jmE" id="xHz-9B-jeu" />
+                        <outlet property="rectangle48View" destination="fMO-IN-XHi" id="ORG-W4-PbG" />
+                        <outlet property="rectangle47View" destination="XBR-Cq-uiN" id="I1I-FA-c9G" />
+                        <outlet property="rectangle49View" destination="TYk-kU-2kC" id="QiA-Yz-XfO" />
+                        <outlet property="rectangle50View" destination="A9j-VK-0oh" id="AI4-gy-Ygn" />
+                        <outlet property="rectangle51View" destination="eXN-56-d0a" id="ozr-2B-UiY" />
+                        <outlet property="rectangle52View" destination="Duh-0r-7hx" id="XJc-md-67h" />
+                        <outlet property="raimondKlavinsJqt2ImageView" destination="s2i-CC-z78" id="OW7-p3-6Ck" />
+                        <outlet property="bikalpaPokhrelL4naImageView" destination="Cn5-nl-eun" id="u2q-BC-9JO" />
+                        <outlet property="kabitaDarlami11hbaImageView" destination="mBS-hn-Zk8" id="TwV-6K-Nhe" />
+                        <outlet property="rectangle53View" destination="YiC-W4-UH6" id="bgT-nn-rjE" />
+                        <outlet property="polygon1ImageView" destination="l4K-Di-roh" id="c8x-8J-OEE" />
+                        <outlet property="rectangle58View" destination="PzA-7i-qvw" id="yJp-gj-WrB" />
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2WN-Iq-7WZ" userLabel="First Responder" sceneMemberID="firstResponder" />
+            </objects>
+            <point key="canvasLocation" x="3334" y="5049" />
+        </scene>
+        <scene sceneID="Ncv-fK-mUi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qsA-E1-uZ6" sceneMemberID="viewController">
+                    <toolbarItems />
+                    <nil name="viewControllers" />
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pWX-7b-6y3">
+                        <rect key="frame" x="0" y="0" width="375" height="44" />
+                        <autoresizingMask key="autoresizingMask" />
+                    </navigationBar>
+                    <connections>
+                        <segue destination="wGU-aN-r3h" kind="relationship" relationship="rootViewController" id="CbO-bq-EOj" />
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FrV-u2-56s" userLabel="First Responder" sceneMemberID="firstResponder" />
+            </objects>
+            <point key="canvasLocation" x="722" y="999" />
+        </scene>
+    </scenes>
+    <resources>
+        <image name="raimond-klavins-jqt2wp5s0dk-unsplash" width="428" height="926" />
+        <image name="path-99" width="287" height="67" />
+        <image name="group-6" width="21" height="21" />
+        <image name="user" width="26" height="26" />
+        <image name="216242-home-icon" width="29" height="26" />
+        <image name="37menu" width="26" height="26" />
+        <image name="layer1" width="25" height="25" />
+        <image name="241743061-364720328695136-7217928988881411807-n" width="55" height="55" />
+        <image name="group-63" width="18" height="21" />
+        <image name="3325029-search-icon" width="20" height="20" />
+        <image name="group-68" width="20" height="7" />
+        <image name="group-71" width="19" height="5" />
+        <image name="bikalpa-pokhrel-l4na2qrqk0s-unsplash" width="234" height="301" />
+        <image name="kabita-darlami-11hba7nddz0-unsplash" width="234" height="301" />
+        <image name="path-100" width="209" height="90" />
+        <image name="domenico-loia--zl4e-0s50w-unsplash" width="98" height="78" />
+        <image name="path-100-2" width="209" height="90" />
+        <image name="waqas-akhtar--a4cjhecb-a-unsplash" width="98" height="78" />
+        <image name="2561404-clock-icon" width="24" height="24" />
+        <image name="rolands-varsbergs-mikmvyq3qhe-unsplash-3" width="390" height="500" />
+        <image name="path-101" width="8" height="14" />
+        <image name="layer-54" width="17" height="15" />
+        <image name="path-102" width="2" height="2" />
+        <image name="raimond-klavins-jqt2wp5s0dk-unsplash-5" width="46" height="46" />
+        <image name="bikalpa-pokhrel-l4na2qrqk0s-unsplash-5" width="46" height="46" />
+        <image name="kabita-darlami-11hba7nddz0-unsplash-5" width="46" height="46" />
+        <image name="polygon-1-2" width="27" height="27" />
+        <image name="group-78" width="17" height="11" />
+    </resources>
+</document>

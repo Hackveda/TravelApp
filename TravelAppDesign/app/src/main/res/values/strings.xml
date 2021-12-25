@@ -1,0 +1,73 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<string name="app_name">TravelAppDesign</string>
+	
+	<!-- Resources for ScreenTwoActivity -->
+	<string name="screen_two_activity_search_destination_text_view_text">Search Destination</string>
+	<string name="screen_two_activity_japan_two_text_view_hint">Japan</string>
+	<string name="screen_two_activity_text_view_text_view_hint">$120</string>
+	<string name="screen_two_activity_nepal_two_text_view_hint">Nepal</string>
+	<string name="screen_two_activity_text_view_text_view_text">$120</string>
+	<string name="screen_two_activity_top_destination_text_view_text">Top Destination</string>
+	<string name="screen_two_activity_japan_text_view_hint">Japan</string>
+	<string name="screen_two_activity_japan_text_view_text">Japan</string>
+	<string name="screen_two_activity_welcome_text_view_text">Welcome</string>
+	<string name="screen_two_activity_text_view_two_text_view_text">$120</string>
+	<string name="screen_two_activity_sh_shakil_text_view_text">SH Shakil</string>
+	<string name="screen_two_activity_nepal_two_text_view_text">Nepal</string>
+	<string name="screen_two_activity_osaka_street_japan_two_text_view_hint">Osaka Street, Japan</string>
+	<string name="screen_two_activity_osaka_street_japan_two_text_view_text">Osaka Street, Japan</string>
+	<string name="screen_two_activity_japan_two_text_view_text">Japan</string>
+	<string name="screen_two_activity_osaka_street_japan_text_view_hint">Osaka Street, Japan</string>
+	<string name="screen_two_activity_top_destination_text_view_hint">Top Destination</string>
+	<string name="screen_two_activity_bandung_two_text_view_hint">Bandung</string>
+	<string name="screen_two_activity_bandung_two_text_view_text">Bandung</string>
+	<string name="screen_two_activity_sh_shakil_text_view_hint">SH Shakil</string>
+	<string name="screen_two_activity_text_view_two_text_view_hint">$120</string>
+	<string name="screen_two_activity_recommended_text_view_hint">Recommended</string>
+	<string name="screen_two_activity_osaka_street_japan_text_view_text">Osaka Street, Japan</string>
+	<string name="screen_two_activity_nepal_text_view_hint">Nepal</string>
+	<string name="screen_two_activity_welcome_text_view_hint">Welcome</string>
+	<string name="screen_two_activity_recommended_text_view_text">Recommended</string>
+	<string name="screen_two_activity_bandung_text_view_text">Bandung</string>
+	<string name="screen_two_activity_bandung_text_view_hint">Bandung</string>
+	<string name="screen_two_activity_nepal_text_view_text">Nepal</string>
+	<string name="screen_two_activity_search_destination_text_view_hint">Search Destination</string>
+	
+	<!-- Resources for ScreenActivity -->
+	<string name="screen_activity_your_dream_vacation_text_view_hint">your dream\nvacation.</string>
+	<string name="screen_activity_your_dream_vacation_text_view_text">your dream\nvacation.</string>
+	<string name="screen_activity_get_started_button_hint">Get Started</string>
+	<string name="screen_activity_let_smake_text_view_text">Let\'s make</string>
+	<string name="screen_activity_let_smake_text_view_hint">Let\'s make</string>
+	<string name="screen_activity_get_started_button_text">Get Started</string>
+	
+	<!-- Resources for ScreenThreeActivity -->
+	<string name="screen_three_activity_osaka_street_japan_text_view_text">Osaka Street, Japan</string>
+	<string name="screen_three_activity_overview_text_view_text">Overview</string>
+	<string name="screen_three_activity_reviews_text_view_hint">Reviews</string>
+	<string name="screen_three_activity_hours_text_view_text">5 hours</string>
+	<string name="screen_three_activity_of5_text_view_hint">4.5 of 5</string>
+	<string name="screen_three_activity_japan_text_view_hint">Japan</string>
+	<string name="screen_three_activity_duration_text_view_text">DURATION</string>
+	<string name="screen_three_activity_book_now_text_view_text">Book Now</string>
+	<string name="screen_three_activity_lorem_ipsum_is_simpl_text_view_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+	<string name="screen_three_activity_osaka_street_japan_text_view_hint">Osaka Street, Japan</string>
+	<string name="screen_three_activity_person_text_view_hint">/Person</string>
+	<string name="screen_three_activity_hours_text_view_hint">5 hours</string>
+	<string name="screen_three_activity_text_view_two_text_view_text">+10</string>
+	<string name="screen_three_activity_text_view_text_view_hint">$120</string>
+	<string name="screen_three_activity_book_now_text_view_hint">Book Now</string>
+	<string name="screen_three_activity_overview_text_view_hint">Overview</string>
+	<string name="screen_three_activity_lorem_ipsum_is_simpl_text_view_hint">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+	<string name="screen_three_activity_person_text_view_text">/Person</string>
+	<string name="screen_three_activity_text_view_text_view_text">$120</string>
+	<string name="screen_three_activity_duration_text_view_hint">DURATION</string>
+	<string name="screen_three_activity_text_view_two_text_view_hint">+10</string>
+	<string name="screen_three_activity_reviews_text_view_text">Reviews</string>
+	<string name="screen_three_activity_japan_text_view_text">Japan</string>
+	<string name="screen_three_activity_rating_text_view_text">RATING</string>
+	<string name="screen_three_activity_of5_text_view_text">4.5 of 5</string>
+	<string name="screen_three_activity_rating_text_view_hint">RATING</string>
+</resources>

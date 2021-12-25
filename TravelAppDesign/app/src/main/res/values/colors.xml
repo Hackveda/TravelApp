@@ -1,0 +1,72 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<color name="color_hint_text">#D0D1D5</color>
+	<color name="color_accent">#000000</color>
+	<color name="color_click_overlay">#555555</color>
+	<color name="material_bottom_sheet_title">#0000008A</color>
+	<color name="color_primary_dark">#000000</color>
+	<color name="color_primary">#000000</color>
+	<color name="material_bottom_sheet_item">#000000DE</color>
+	
+	<!-- Resources for ScreenTwoActivity -->
+	<color name="screen_two_activity_search_destination_text_view_text_color">#151212</color>
+	<color name="screen_two_activity_top_destination_text_view_text_color">#21304F</color>
+	<color name="screen_two_activity_rectangle6_constraint_layout_background_color">#FDFDFD</color>
+	<color name="screen_two_activity_rectangle46_two_constraint_layout_background_color">#E0E6EF</color>
+	<color name="screen_two_activity_japan_text_view_text_color">#FFFFFF</color>
+	<color name="screen_two_activity_rectangle43_constraint_layout_background_color">#FF8735</color>
+	<color name="screen_two_activity_bandung_text_view_text_color">#21304F</color>
+	<color name="screen_two_activity_ellipse31_constraint_layout_border_color">#F2F4F6</color>
+	<color name="screen_two_activity_sh_shakil_text_view_text_color">#21304F</color>
+	<color name="screen_two_activity_group66_constraint_layout_background_color">#F2F4F6</color>
+	<color name="screen_two_activity_ellipse33_constraint_layout_background_color">#FFFFFF</color>
+	<color name="screen_two_activity_ellipse31_constraint_layout_background_color">#EF6A10</color>
+	<color name="screen_two_activity_osaka_street_japan_text_view_text_color">#FFFFFF</color>
+	<color name="screen_two_activity_group62_constraint_layout_background_color">#FFFFFF</color>
+	<color name="screen_two_activity_rectangle8_button_text_color">#000000</color>
+	<color name="screen_two_activity_rectangle6_constraint_layout_border_color">#36FFBE90</color>
+	<color name="screen_two_activity_rectangle8_button_background_color">#FF8735</color>
+	<color name="screen_two_activity_constraint_layout_constraint_layout_background_color">#FBFDFF</color>
+	<color name="screen_two_activity_japan_two_text_view_text_color">#FFFFFF</color>
+	<color name="screen_two_activity_text_view_text_view_text_color">#FFFFFF</color>
+	<color name="screen_two_activity_recommended_text_view_text_color">#21304F</color>
+	<color name="screen_two_activity_osaka_street_japan_two_text_view_text_color">#FFFFFF</color>
+	<color name="screen_two_activity_nepal_text_view_text_color">#21304F</color>
+	<color name="screen_two_activity_nepal_two_text_view_text_color">#21304F</color>
+	<color name="screen_two_activity_text_view_two_text_view_text_color">#FFFFFF</color>
+	<color name="screen_two_activity_bandung_two_text_view_text_color">#21304F</color>
+	<color name="screen_two_activity_rectangle46_constraint_layout_background_color">#E0E6EF</color>
+	<color name="screen_two_activity_welcome_text_view_text_color">#21304F</color>
+	
+	<!-- Resources for ScreenActivity -->
+	<color name="screen_activity_constraint_layout_constraint_layout_background_color">#DBECF0F5</color>
+	
+	<!-- Resources for ScreenThreeActivity -->
+	<color name="screen_three_activity_rectangle47_constraint_layout_background_color">#FFFFFF</color>
+	<color name="screen_three_activity_constraint_layout_constraint_layout_background_color">#FBFDFF</color>
+	<color name="screen_three_activity_duration_text_view_text_color">#21304F</color>
+	<color name="screen_three_activity_osaka_street_japan_text_view_text_color">#FFFFFF</color>
+	<color name="screen_three_activity_overview_text_view_text_color">#FF8735</color>
+	<color name="screen_three_activity_rectangle53_constraint_layout_background_color">#7A7A7A</color>
+	<color name="screen_three_activity_text_view_two_text_view_text_color">#FFFFFF</color>
+	<color name="screen_three_activity_lorem_ipsum_is_simpl_text_view_text_color">#21304F</color>
+	<color name="screen_three_activity_rectangle57_constraint_layout_background_color">#FFEBDD</color>
+	<color name="screen_three_activity_rectangle49_constraint_layout_background_color">#FFFFFF</color>
+	<color name="screen_three_activity_of5_text_view_text_color">#21304F</color>
+	<color name="screen_three_activity_japan_text_view_text_color">#FFFFFF</color>
+	<color name="screen_three_activity_rectangle13_constraint_layout_background_color">#FFFFFF</color>
+	<color name="screen_three_activity_rectangle54_constraint_layout_background_color">#FFFFFF</color>
+	<color name="screen_three_activity_rectangle56_constraint_layout_background_color">#FFFFFF</color>
+	<color name="screen_three_activity_rectangle51_constraint_layout_background_color">#E4E4E4</color>
+	<color name="screen_three_activity_rectangle52_constraint_layout_background_color">#E4E4E4</color>
+	<color name="screen_three_activity_rating_text_view_text_color">#21304F</color>
+	<color name="screen_three_activity_person_text_view_text_color">#FFFFFF</color>
+	<color name="screen_three_activity_rectangle55_constraint_layout_background_color">#FFEBDD</color>
+	<color name="screen_three_activity_rectangle50_constraint_layout_background_color">#E4E4E4</color>
+	<color name="screen_three_activity_book_now_text_view_text_color">#FFFFFF</color>
+	<color name="screen_three_activity_rectangle48_constraint_layout_background_color">#FFFFFF</color>
+	<color name="screen_three_activity_reviews_text_view_text_color">#21304F</color>
+	<color name="screen_three_activity_text_view_text_view_text_color">#FF8735</color>
+	<color name="screen_three_activity_hours_text_view_text_color">#21304F</color>
+</resources>
